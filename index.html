@@ -4,10 +4,113 @@
         <title>
             Heading - 1
         </title>
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+            p{
+                color: red;
+                text-align: center;
+            }
+
+            div{
+                color: seagreen;
+                background-color: skyblue;
+                height: 150px;
+                width: 100px;
+                margin: 50px;
+                padding: 20px;
+                font-family:cursive;
+                font-size: x-large;
+                font-weight: bolder;
+                text-align: center;
+                border: yellow dotted;
+            }
+
+            table{
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 500px;
+                text-align: center;
+            }
+            th,td{
+                border: 1px solid black;
+                padding: 5px;
+            }
+            th{
+                background-color: chartreuse;
+            }
+
+            #one{
+                color: chocolate;
+            }
+
+            .two{
+                color: darkgreen;
+            }
+
+        </style>
+
     </head>
+
+
+
     <body>
-        My very first page created
-        Added again - karkuzhali senthil
+        <h1 style="color: blue;text-align: center;">My very first page created</h1>
+        <h2>Added again - karkuzhali senthil</h2>
+
+
+        Unordered list:
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+        </ul>
+
+
+        Ordered list:
+        <ol>
+            <li>Second item</li>
+            <li>First item</li>
+        </ol>
+
+
+        <p>Defined size image</p>
+        <img src="DSC_5031.JPG" height="200" width="300">
+        <p>screen size accomodation</p>
+        <img src="DSC_5031.JPG" height="25%" width="25%">
+
+
+        <h5>TABLES</h5>
+        <table>
+            <tr>
+                <th>Events</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>16th june 1992</td>
+            </tr>
+            <tr>
+                <td>Marriage </td>
+                <td>30 april 2017</td>
+            </tr>
+        </table>
+
+
+        <h5>FORMS</h5>
+        <form>
+            <input type="text" placeholder="Full name" name="name">
+            <button>Submit</button>
+        </form>
+
+        <div>
+            practising html for the first time
+
+        </div>
+
+        <div id="one">
+            practising html for the <span class="two">second</span> time
+
+        </div>
 
     </body>
 </html>
